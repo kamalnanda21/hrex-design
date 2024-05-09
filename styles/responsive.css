@@ -311,7 +311,7 @@
 
     .card {
         height: 350px;
-        max-width: 335px !important;
+        max-width: 300px !important;
         padding: 32px 20px 32px 20px;
         margin-inline: 12px;
         margin-bottom: 23px;
@@ -329,6 +329,141 @@
         flex-direction: column;
         align-items: center;
     }
+
+    /* -------section three----  */
+
+    .sec3-mobile {
+        display: block;
+    }
+
+    .section-three {
+        display: none;
+    }
+
+    .sec3-col {
+        text-align: center;
+        margin-inline: 34px;
+    }
+
+    .up-image, .down-image {
+        width: 100%;
+        max-width: 132px;
+    }
+
+    .up-image {
+        height: 220px;
+    }
+
+    .sec3-image {
+        max-width: 199px;
+        width: 100%;
+        height: 327px;
+        margin-bottom: 20px;
+    }
+
+    .max1 {
+        max-width: 35% !important;
+        margin-inline: auto;
+    }
+
+    .max2 {
+        max-width: 55% !important;
+    }
+
+    .mg {
+        padding-inline: 30px;
+    }
+
+    .sec3-col h3 {
+        font-size: 28px;
+        line-height: 34px;
+        padding-bottom: 15px;
+        padding-top: 31px;
+        margin-inline: auto;
+    }
+    
+    .sec3-col p {
+        font-size: 17px;
+        line-height: 21px;
+        padding-bottom: 23px;
+        margin-inline: auto;
+    }
+
+    .down-image {
+        bottom: 50px;
+    }
+
+    .inner-content {
+        max-width: 347px;
+        margin-inline: auto;
+    }
+
+    .inner-content h4 {
+        padding-bottom: 14px;
+        padding-top: 58px;
+    }
+
+    .inner-content p {
+        padding-bottom: 15px;
+    }
+
+    .pad {
+        margin-bottom: 81px;
+    }
+
+    .learn-more {
+        justify-content: center;
+    }
+
+    /* --- section four ----  */
+
+    .sec4-wid {
+        margin-top: 27px;
+        margin-bottom: 29px;
+    }
+
+    .sec4-image1 {
+        max-width: 100%;
+    }
+
+    .sec4-image2 {
+        top: -15px;
+        max-width: 60%;
+    }
+
+    .sec4-col {
+        text-align: -webkit-center;
+    }
+
+    .sec4-col h2 {
+        font-size: 28px;
+        line-height: 34px;
+        max-width: 328px;
+        padding-bottom: 29px;
+    }
+
+    .sec4-col p, .hr-card h4 {
+        font-size: 17px;
+        line-height: 21px;
+        max-width: 288px;
+    }
+
+    .hr-cards {
+        padding-top: 0;
+        margin-top: 200px;
+    }
+
+    .hr-card p {
+        font-size: 13px;
+        line-height: 16px;
+        max-width: 349px;
+    }
+
+    .book-demo {
+        padding-top: 45px;
+    }
+
+
 
 }
 
@@ -362,12 +497,59 @@
         gap: 20px;
     }
 
+    /* section three  */
+
+    .sec3-mobile {
+        display: none;
+    }
+
+    .max1 {
+        max-width: 25% !important;
+        padding-left: 250px;
+    }
+
+    .max2 {
+        max-width: 50% !important;
+    }
+
+    .sec3-col {
+        padding-top: 100px;
+    }
+
+    .down-image {
+        bottom: 49px;
+    }
+
+    .max3 {
+        flex: 0 0 80% !important;
+        max-width: 80% !important;
+    }
+
+
+    /* ----section four -----  */
+
+    .sec4-image1 {
+        width: 100%;
+    }
+
+    .sec4-image2 {
+        top: 10px;
+        width: 40%;
+    }
+
+
+
+
 
 }
 
 @media (min-width:1200px) {
 
     .mobile-navbar {
+        display: none;
+    }
+
+    .sec3-mobile {
         display: none;
     }
 

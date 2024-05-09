@@ -367,9 +367,11 @@ ul {
 .black {
     background-color: var(--heading-black-color);
 }
+
 .green {
     background-color: var(--card-green-color);
 }
+
 .blue-card {
     background-color: var(--card-blue-color);
 }
@@ -416,4 +418,155 @@ ul {
     max-width: 189px;
     font-size: 15px;
     line-height: 18px;
+}
+
+
+/* --section three---- */
+
+.max1 {
+    max-width: 20% !important;
+}
+
+.max2 {
+    max-width: 30% !important;
+}
+
+.wid {
+    width: 282px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.pad {
+    margin-bottom: 98px;
+}
+
+.learn-more {
+    display: flex;
+}
+
+.up-image {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 1;
+}
+
+.down-image {
+    position: absolute;
+    bottom: 199px;
+    left: 0;
+    z-index: 0;
+}
+
+.sec3-col h3 {
+    font-size: 33px;
+    line-height: 40px;
+    padding-bottom: 32px;
+    max-width: 360px;
+}
+
+.sec3-col p {
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--content-color);
+    padding-bottom: 57px;
+    max-width: 511px;
+}
+
+.inner-content {
+    background-color: #FFFFFF;
+    border-radius: 34px;
+    padding-left: 26px;
+    padding-right: 30px;
+    margin-bottom: 22px;
+    max-width: 505px;
+}
+
+.inner-content h4 {
+    font-size: 21px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+}
+
+.inner-content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--heading-black-color);
+    padding-bottom: 42px;
+    max-width: 449px;
+}
+
+.justify {
+    justify-content: center;
+}
+
+/* ---- section four -----  */
+
+.section-four {
+    background-color: #FFFFFF;
+    border-radius: 34px;
+    min-height: 550px;
+    margin-bottom: 100px;
+}
+
+.sec4-wid {
+    width: 194px;
+    text-align: center;
+    margin-top: 39px;
+    margin-bottom: 35px;
+}
+
+.sec4-col h2 {
+    font-size: 33px;
+    line-height: 40px;
+    max-width: 450px;
+    padding-bottom: 35px;
+}
+
+.sec4-col p {
+    font-size: 21px;
+    line-height: 26px;
+    padding-bottom: 47px;
+    max-width: 475px;
+    color: var(--content-color);
+}
+
+.sec4-image1 {
+    position: absolute;
+}
+
+.sec4-image2 {
+    position: absolute;
+    top: -20px;
+    left: 100px;
+}
+
+.hr-cards {
+    padding-top: 107px;
+}
+
+.hr-card h4 {
+    font-size: 21px;
+    line-height: 26px; 
+    padding-bottom: 20px; 
+}
+
+hr {
+    border: 0.5px solid #767676;
+    margin-bottom: 10px;
+}
+
+.hr-card p {
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 16px;
+}
+
+.book-demo {
+    padding-bottom: 38px;
+    padding-top: 38px;
+    display: flex;
 }
