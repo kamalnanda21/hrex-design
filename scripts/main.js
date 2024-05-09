@@ -12,3 +12,26 @@ hamburger.addEventListener("click", function() {
     document.body.style.overflow = "auto";
   }
 });
+
+
+// slick slider
+
+$(document).ready(function(){
+  $('.slide').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      infinite: true,
+      prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+      nextArrow: '<button type="button" class="slick-next">Next</button>',
+      responsive: [
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 1
+              }
+          }
+      ]
+  });
+});

@@ -643,6 +643,175 @@ hr {
     padding-bottom: 30px;
 }
 
+
+/* section sixth  */
+
+.checked {
+    color: var(--uk-color);
+}
+
+.unchecked {
+    color: #D9D9D9;
+}
+
+.section-six {
+    background-color: #FFFFFF;
+    min-height: 384px;
+    border-radius: 48px;
+    margin-inline: 112px;
+    margin-bottom: 93px;
+}
+
+.testimonials {
+    text-align: center;
+    width: 152px;
+    margin-top: 33px;
+    margin-bottom: 18px;
+}
+
+.cont-pad {
+    padding-left: 60px !important;
+    padding-right: 29px !important;
+}
+
+.sec6-content p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    max-width: 449px;
+}
+
+.sec6-content h5 {
+    font-family: aptosBold;
+    font-size: 15px;
+    line-height: 15px;
+    padding-bottom: 11px;
+}
+
+.star-rating {
+    padding-bottom: 119px;
+}
+
+.image {
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.sec6-image {
+    width: 100%;
+}
+
+.card-area.slider {
+    width: 100%;
+}
+
+
+
+/* section seven  */
+
+.vertical-text {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 25px;
+    margin-bottom: 34px;
+}
+
+.sec7-cont {
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+.sec7-cont h2 {
+    font-size: 33px;
+    line-height: 40px;
+    max-width: 650px;
+    margin-inline: auto;
+}
+
+.msoft {
+    margin-bottom: 35px;
+}
+
+.sec7-inner-cont {
+    background-color: #FFFFFF;
+    border-radius: 34px;
+    margin-bottom: 108px;
+}
+
+.num1-cont, .d-flex, .bookdemo {
+    display: flex;
+}
+
+.num1-cont h2 {
+    font-size: 57px;
+    line-height: 70px;
+    max-width: 81px;
+    padding: 20px 0;
+}
+
+.num1-cont p {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 490px;
+    padding: 39px 0 42px 10px;
+}
+
+.sec7-img-cont img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}  
+
+.sec7-image1 img {
+    z-index: 1;
+}
+
+.sec7-image2 img {
+    z-index: 2;
+}
+  
+.sec7-image3 img {
+    z-index: 3;
+}
+
+.sec7-img-cont p {
+    position: absolute;
+    z-index: 10;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    bottom: 68px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.text0 {
+    margin-right: 69px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text1 {
+    right: 300px;
+}
+
+.text2 {
+    right: 185px;
+}
+
+.text3 {
+    right: 60px;
+    color: var(--heading-black-color) !important;
+}
+
+.main-cont {
+    padding-top: 41px;
+    padding-bottom: 34px;
+}
+
+
+
 /* ----section eight----  */
 
 .card1 {
