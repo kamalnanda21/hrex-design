@@ -773,7 +773,7 @@ hr {
     padding-top: 16px;
 }
 
-.footer-col:hover {
+.footer-col a:hover, .footer-col address:hover, .footer-col p:hover {
     color: #FFFFFF;
 }
 
