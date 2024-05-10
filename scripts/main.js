@@ -14,7 +14,7 @@ hamburger.addEventListener("click", function() {
 });
 
 
-// slick slider
+// slick slider - index.html
 
 $('.slick-slider').slick({
   dots: true,

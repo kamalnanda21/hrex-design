@@ -103,7 +103,7 @@ ul {
     margin-right: 14px;
 }
 
-.navlinks li:first-child {
+.navlinks li .active {
     font-family: aptosBold;
 }
 

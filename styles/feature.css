@@ -1,0 +1,103 @@
+/* ---------------features section css-------------  */
+
+.card-area {
+    margin-left: 0;
+    position: relative;
+}
+
+.blue-slider {
+    background-color: var(--card-blue-color);
+}
+
+/* section three  */
+
+.sec6-content-feature h5 {
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 11px;
+    color: #FFFFFF;
+}
+
+.sec6-content-feature p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    max-width: 449px;
+    color: #FFFFFF;
+}
+
+.white-bg {
+    background-color: #FFFFFF;
+}
+
+.cont-feature {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* section four  */
+
+.hrex-wid {
+    width: 141px;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 39px;
+}
+
+.sec4-col-feature h2 {
+    font-size: 33px;
+    line-height: 40px;
+    max-width: 546px;
+    padding-bottom: 17px;
+}
+
+.sec4-col-feature p {
+    font-size: 21px;
+    line-height: 26px;
+    padding-bottom: 65px;
+    max-width: 452px;
+    color: var(--content-color);
+}
+
+.feature-pad {
+    padding-left: 50px !important;
+    padding-right: 108px !important;
+}
+
+.section-four-feature {
+    background-color: #FFFFFF;
+    border-radius: 34px;
+    min-height: 591px;
+    margin-bottom: 130px;
+    margin-top: 120px;
+    margin-inline: 112px;
+}
+
+.sec4-image2-feature {
+    position: absolute;
+    top: 32px;
+    left: 29px;
+}
+
+.hr-card-feature h4 {
+    font-size: 21px;
+    line-height: 26px; 
+    padding-bottom: 10px; 
+}
+
+.hr-cards-feature {
+    padding-top: 125px;
+}
+
+.hr-card-feature p {
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 16px;
+}
+
+.sec4-image1-feature {
+    position: absolute;
+    width: 100%;
+}

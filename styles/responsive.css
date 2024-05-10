@@ -711,6 +711,80 @@
     }
 
 
+    /* ----features section-------- */
+
+    .section-four-feature {
+        margin-inline: 10px;
+        margin-bottom: 86px;
+        margin-top: 86px;
+        background-color: transparent;
+    }
+
+    .sec4-col-feature {
+        text-align: center;
+    }
+
+    .sec4-col-feature h2 {
+        font-size: 28px;
+        line-height: 34px;
+        max-width: 328px;
+        margin-inline: auto;
+        padding-bottom: 20px;
+    }
+
+    .sec4-col-feature p {
+        font-size: 17px;
+        line-height: 21px;
+        max-width: 334px;
+        margin-inline: auto;
+        padding-bottom: 37px;
+    }
+
+    .hrex-wid {
+        margin-bottom: 29px;
+        margin-top: 0;
+    }
+        
+    .feature-pad {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .sec4-image2-feature {
+        width: 101px;
+        top: 20px;
+        left: 124px;
+    }
+
+    .sec4-image1-feature {
+        width: 349px;
+        max-width: 100%;
+    }
+
+    .hr-cards-feature {
+        padding-top: 0;
+        margin-top: 37px;
+    }
+
+    .mg {
+        margin-top: 150px;
+    }
+
+    .hr-card-feature h4 {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .hr-card-feature p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .sett {
+        flex-direction: column;
+        align-items: center;
+        width: -webkit-fill-available;
+    }
 
 
 }
@@ -871,7 +945,22 @@
         padding-bottom: 20px;
     }
 
+    /* ----features section-------- */
 
+    .feature-pad {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .sec4-image2-feature {
+        width: 101px;
+        top: 5px;
+        left: 80px;
+    }
+
+    .section-four-feature {
+        margin-inline: 60px;
+    }
 
 }
 
@@ -887,6 +976,9 @@
     .text3 {
         right: 60px;
     }
+
+    /* ----features section-------- */
+
 }
 
 @media (min-width:1200px) {
@@ -898,5 +990,9 @@
     .sec3-mobile {
         display: none;
     }
+
+
+
+    /* ----features section-------- */
 
 }
