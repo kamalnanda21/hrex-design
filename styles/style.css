@@ -672,6 +672,39 @@ hr {
 .cont-pad {
     padding-left: 60px !important;
     padding-right: 29px !important;
+    padding-bottom: 10px !important;
+}
+
+.slick-slider {
+    margin-left: 0;
+    position: relative;
+}
+
+.slick-slide {
+    padding-inline: 10px;
+}
+
+.slick-prev, .slick-next {
+    color: black !important;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px !important;
+    left: 20px;
+    z-index: 10;
+    cursor: pointer;
+    background: black !important;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black !important;
+    top: unset !important;
+}
+
+.slick-prev {
+    left: 10px !important;
+}
+
+.slick-next {
+    left: 50px !important;
 }
 
 .sec6-content p {
