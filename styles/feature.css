@@ -2,6 +2,34 @@
 
 /* section one  */
 
+.left-grad {
+    background: #00DE87;
+    width: 530px;
+    height: 220px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    border-radius: 50%;
+    filter: blur(120px);
+    transform: rotateZ(30deg);
+}
+
+.right-grad {
+    background: #F3AF00;
+    width: 530px;
+    height: 220px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    border-radius: 50%;
+    filter: blur(120px);
+    transform: rotateZ(-45deg);
+}
+
+.features-section-one {
+    padding-top: 58px;
+}
+
 .animation {
     padding-top: 186px;
     padding-bottom: 40px;
@@ -43,13 +71,6 @@
     border: 1px solid #FFFFFF;
 }
 
-
-
-
-
-
-
-
 #featuresAnimatedPath {
     animation-name: puzzle;
     animation-duration: 3s;
@@ -82,14 +103,7 @@
     margin-bottom: 20px;
 }
 
-.background-black {
-    background-color: #191919;
-    border-radius: 34px;
-    margin-inline: 112px;
-    text-align: center;
-}
-
-.background-black h2 {
+.mobile-desk {
     font-size: 33px;
     line-height: 40px;
     padding-bottom: 67px;
@@ -147,8 +161,19 @@
 
 .features-section-two {
     padding-top: 126px;
+    overflow: hidden;
 }
 
+.background-black {
+    position: relative;
+    overflow-y: auto;
+    height: 100vh;
+    min-height: 809px;
+    background-color: #191919;
+    border-radius: 34px;
+    margin-inline: 112px;
+    text-align: center;
+}
 
 /* section three  */
 
@@ -335,15 +360,4 @@
     position: absolute;
     bottom: 0;
     transform: translate(-41%, -50%);
-}
-
-.features-section-two {
-    overflow: hidden;
-}
-
-.background-black {
-    position: relative;
-    overflow-y: auto;
-    height: 100vh;
-    min-height: 809px;
 }
