@@ -1,13 +1,154 @@
 /* ---------------features section css-------------  */
 
-.card-area {
-    margin-left: 0;
-    position: relative;
+/* section one  */
+
+.animation {
+    padding-top: 186px;
+    padding-bottom: 40px;
 }
 
-.blue-slider {
-    background-color: var(--card-blue-color);
+.hero-content {
+    text-align: center;
 }
+
+.sec1-content {
+    text-align: center;
+}
+
+.sec1-content h1 {
+    font-size: 57px;
+    line-height: 70px;
+    padding-bottom: 10px;
+}
+
+.sec1-content p {
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 43px;
+    color: #A1A4B2;
+    max-width: 771px;
+    margin-inline: auto;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.border {
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
+
+
+
+
+#featuresAnimatedPath {
+    animation-name: puzzle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes puzzle {
+    from {transform: translate(0, 0);}
+    to {transform: translate(14%, 21%);
+        transition: transform 3s ease;}
+}
+
+
+/* section two  */
+
+.img-row {
+    margin-right: 20px;
+}
+
+.image-align {
+    display: flex;
+}
+
+.sec2-img3-feature {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.sec2-img1-feature {
+    margin-bottom: 20px;
+}
+
+.background-black {
+    background-color: #191919;
+    border-radius: 34px;
+    margin-inline: 112px;
+    text-align: center;
+}
+
+.background-black h2 {
+    font-size: 33px;
+    line-height: 40px;
+    padding-bottom: 67px;
+    color: #FFFFFF;
+}
+
+.sec2-inner-cont {
+    padding-inline: 111px;
+}
+
+.hrex-feature {
+    width: 188px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.padding {
+    padding-left: 59px !important;
+}
+
+.content1 {
+    text-align: left !important;
+    color: #FFFFFF !important;
+}
+
+.content1 h4 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF !important;
+    padding-top: 40px;
+}
+
+.content1 p {
+    font-size: 15px;
+    line-height: 18px;
+    width: 400px;
+}
+
+.content2 {
+    text-align: left !important;
+    padding-top: 25px;
+}
+
+.content2 h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF !important;
+}
+
+.content2 p {
+    color: var(--uk-color) !important;
+}
+
+.features-section-two {
+    padding-top: 126px;
+}
+
 
 /* section three  */
 
@@ -38,6 +179,15 @@
 
 
 /* section four  */
+
+.card-area {
+    margin-left: 0;
+    position: relative;
+}
+
+.blue-slider {
+    background-color: var(--card-blue-color);
+}
 
 .hrex-wid {
     width: 141px;
@@ -100,4 +250,100 @@
 .sec4-image1-feature {
     position: absolute;
     width: 100%;
+}
+
+/* section five  */
+
+.hrex-how {
+    width: 226px;
+    text-align: center;
+}
+
+.sec5-cont {
+    text-align: center;
+}
+
+.features-section-five {
+    padding-top: 30px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.sec5-cont {
+    padding-inline: 112px !important;
+}
+
+.sec5-cont h2 {
+    padding-top: 20px;
+    padding-bottom: 45px;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+.img3-sec5 {
+    position: relative;
+    padding-top: 42px;
+    padding-bottom: 27px;
+}
+
+.img4-sec5 {
+    position: absolute;
+    top: 14%;
+    left: 12%;
+}
+
+.white-back {
+    border-radius: 34px;
+    background-color: #FFFFFF;
+    max-width: 495px !important;
+    text-align: left !important;
+    padding-left: 40px !important;
+}
+
+.features-section-five {
+    padding-bottom: 136px;
+}
+
+.white-back h4 {
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 10px;
+}
+
+.white-back p {
+    font-size: 21px;
+    line-height: 26px;
+    max-width: 365px;
+    padding-bottom: 56px;
+}
+
+.grey {
+    background-color: #C6C9D7;
+    margin-bottom: 32px;
+    padding-left: 32px !important;
+}
+
+.grey-dot {
+    background: #C6C9D7 !important;
+}
+
+.sec5-img1 {
+    position: relative;
+}
+
+.sec5-img2 {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-41%, -50%);
+}
+
+.features-section-two {
+    overflow: hidden;
+}
+
+.background-black {
+    position: relative;
+    overflow-y: auto;
+    height: 100vh;
+    min-height: 809px;
 }
