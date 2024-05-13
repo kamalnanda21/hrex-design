@@ -9,8 +9,8 @@ $('.card-area').slick({
     autoplay: true,
     autoplaySpeed: 5000, // Autoplay speed in milliseconds
     arrows: true, // Show arrows
-    prevArrow: '<button type="button" class="slick-prev"></button>', // Custom prev arrow
-    nextArrow: '<button type="button" class="slick-next"></button>', // Custom next arrow
+    prevArrow: '<img src="/images/feature-images/prev-arrow.png" class="slick-prev">', // Custom prev arrow
+    nextArrow: '<img src="/images/feature-images/next-arrow.png" class="slick-next">', // Custom next arrow
     responsive: [
         {
             breakpoint: 768,

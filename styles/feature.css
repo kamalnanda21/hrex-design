@@ -356,8 +356,29 @@
     position: relative;
 }
 
+.learn-demo {
+    display: flex;
+    justify-content: left;
+}
+
 .sec5-img2 {
     position: absolute;
-    bottom: 0;
+    bottom: 105px;
     transform: translate(-41%, -50%);
+}
+
+.arrow-setting {
+    background-color: black;
+    border-color: black;
+    position: relative;
+    left: 93px;
+    bottom: 90px;
+}
+
+.left-arrow-setting {
+    background-color: transparent !important;
+    transform: rotate(-90deg);
+    position: relative;
+    bottom: 140px;
+    left: 32px;
 }
