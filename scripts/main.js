@@ -22,10 +22,10 @@ $('.slick-slider').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 5000, // Autoplay speed in milliseconds
+  autoplay: false,
+  autoplaySpeed: 4000, // Autoplay speed in milliseconds
   arrows: true, // Show arrows
-  prevArrow: '<img src="/images/left-arrow.png" class="slick-prev">', // Custom prev arrow
+  prevArrow: '<img src="/images/right-arrow.png" class="slick-prev">', // Custom prev arrow
   nextArrow: '<img src="/images/right-arrow.png" class="slick-next">', // Custom next arrow
   responsive: [
       {

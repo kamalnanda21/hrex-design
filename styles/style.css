@@ -62,6 +62,11 @@ ul {
     padding-left: 13px;
     font-size: 17px;
     line-height: 21px;
+    transition: all 0.2s ease-in-out;
+}
+
+.arrow-btn:hover {
+    opacity: 0.8;
 }
 
 .dot {
@@ -85,6 +90,12 @@ ul {
     align-items: center;
     justify-content: flex-start;
     padding-top: 50px;
+    padding-inline: 0 !important;
+}
+
+.navbar-mw {
+    max-width: 1260px !important;
+    margin-inline: auto !important;
 }
 
 .navlinks {
@@ -327,6 +338,11 @@ ul {
     padding-right: 0 !important;
 }
 
+.hero-mw {
+    max-width: 1260px !important;
+    margin-inline: auto !important;
+}
+
 /* -------section two---- */
 
 .section-two {
@@ -422,6 +438,11 @@ ul {
     line-height: 18px;
 }
 
+.sec2-mw {
+    max-width: 1440px !important;
+    margin-inline: auto !important;
+}
+
 
 /* --section three---- */
 
@@ -513,6 +534,11 @@ ul {
     padding-left: 25px;
 }
 
+.sec3-mw {
+    max-width: 1100px !important;
+    margin-inline: auto !important;
+}
+
 /* ---- section four -----  */
 
 .section-four {
@@ -579,6 +605,16 @@ hr {
     padding-bottom: 38px;
     padding-top: 38px;
     display: flex;
+}
+
+.sec4-mw {
+    max-width: 1215px !important;
+    margin-inline: auto !important;
+}
+
+.sec4-cont {
+    padding-left: 50px !important;
+    padding-right: 110px !important;
 }
 
 /* ----- section five ----- */
@@ -654,6 +690,12 @@ hr {
     padding-bottom: 30px;
 }
 
+.sec5-cards-mw {
+    max-width: 1190px !important;
+    margin-inline: auto !important;
+}
+
+
 /* section sixth  */
 
 .checked {
@@ -682,12 +724,12 @@ hr {
 .cont-pad {
     padding-left: 60px !important;
     padding-right: 29px !important;
-    padding-bottom: 10px !important;
 }
 
 .slick-slider {
     margin-left: 0;
     position: relative;
+    max-width: 50%;
 }
 
 .slick-slide {
@@ -698,7 +740,6 @@ hr {
     font-size: 20px;
     position: absolute;
     bottom: 20px !important;
-    left: 20px;
     z-index: 10;
     cursor: pointer;
     padding: 10px;
@@ -706,11 +747,21 @@ hr {
 }
 
 .slick-prev {
-    left: 10px !important;
+    left: 25px !important;
+    transform: rotate(180deg) !important;
 }
 
 .slick-next {
-    left: 50px !important;
+    bottom: 11px !important;
+    left: 75px !important;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.sec6-content {
+    max-width: 100% !important;
 }
 
 .sec6-content p {
@@ -742,6 +793,11 @@ hr {
 
 .card-area.slider {
     width: 100%;
+}
+
+.sec6-mw {
+    max-width: 1215px !important;
+    margin-inline: auto !important;
 }
 
 
@@ -829,6 +885,11 @@ hr {
     letter-spacing: 1px;
 }
 
+.setting {
+    max-width: 1215px !important;
+    margin-inline: auto !important;
+}
+
 .text0 {
     margin-right: 69px;
     text-transform: uppercase;
@@ -851,6 +912,11 @@ hr {
 .main-cont {
     padding-top: 41px;
     padding-bottom: 34px;
+}
+
+.sec7-mw {
+    max-width: 1360px !important;
+    margin-inline: auto !important;
 }
 
 
@@ -932,6 +998,11 @@ hr {
     max-width: 280px;
 }
 
+.sec8-mw {
+    max-width: 1217px !important;
+    margin-inline: auto !important;
+}
+
 
 /* section ninth  */
 
@@ -957,6 +1028,11 @@ hr {
     max-width: 546px;
     font-size: 43px;
     line-height: 52px;
+}
+
+.sec9-mw {
+    max-width: 1219px !important;
+    margin-inline: auto !important;
 }
 
 /* footer section  */
@@ -1012,8 +1088,9 @@ hr {
     line-height: 26px;
 }
 
-.footer-content address {
+.footer-content .address {
     max-width: 440px;
+    cursor: pointer;
 }
 
 /* sub footer  */

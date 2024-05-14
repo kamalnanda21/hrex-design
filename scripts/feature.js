@@ -7,9 +7,9 @@ $('.card-area').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000, // Autoplay speed in milliseconds
+    autoplaySpeed: 4000, // Autoplay speed in milliseconds
     arrows: true, // Show arrows
-    prevArrow: '<img src="/images/feature-images/prev-arrow.png" class="slick-prev">', // Custom prev arrow
+    prevArrow: '<img src="/images/feature-images/next-arrow.png" class="slick-prev">', // Custom prev arrow
     nextArrow: '<img src="/images/feature-images/next-arrow.png" class="slick-next">', // Custom next arrow
     responsive: [
         {
@@ -44,4 +44,44 @@ hamburger.addEventListener("click", function() {
   } else {
     document.body.style.overflow = "auto";
   }
+});
+
+
+$('.slick-slider2').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: false,
+  arrows: false,
+  autoplaySpeed: 5000, // Autoplay speed in milliseconds
+  responsive: [
+      {
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+          }
+      },
+      {
+          breakpoint: 480,
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+          }
+      }
+  ]
+});
+
+// Functionality to move to the previous slide
+$('.prev-slide').click(function () {
+  $('.slick-slider2').slick('slickPrev');
+});
+
+// Functionality to move to the next slide
+$('.next-slide').click(function () {
+  $('.slick-slider2').slick('slickNext');
 });

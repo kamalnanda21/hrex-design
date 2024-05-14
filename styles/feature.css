@@ -74,7 +74,7 @@
 #featuresAnimatedPath {
     animation-name: puzzle;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 
 @keyframes puzzle {
@@ -166,14 +166,26 @@
 
 .background-black {
     position: relative;
-    overflow-y: auto;
-    height: 100vh;
-    min-height: 809px;
+    overflow-x: hidden;
+    height: 750px;
     background-color: #191919;
     border-radius: 34px;
-    margin-inline: 112px;
     text-align: center;
 }
+
+.background-black::-webkit-scrollbar { 
+    display: none;
+}
+
+.sec2-mw-feature {
+    max-width: 1215px !important;
+    margin-inline: auto !important;
+}
+
+.sec2-cont-pad {
+    padding-inline: 112px !important;
+}
+
 
 /* section three  */
 
@@ -324,6 +336,8 @@
     text-align: left !important;
     padding-left: 40px !important;
     max-height: 437px;
+    margin-left: 10px;
+    margin-right: -2px;
 }
 
 .features-section-five {
@@ -355,6 +369,17 @@
 
 .sec5-img1 {
     position: relative;
+    width: 100%;
+}
+
+.sec5-img2 {
+    width: 450px;
+    height: 6px;
+}
+
+.adjust {
+    flex-wrap: nowrap !important;
+    justify-content: center;
 }
 
 .learn-demo {
@@ -364,7 +389,6 @@
 
 .sec5-img2 {
     position: absolute;
-    bottom: 105px;
     transform: translate(-41%, -50%);
 }
 
@@ -382,4 +406,19 @@
     position: relative;
     bottom: 140px;
     left: 32px;
+}
+
+.slick-slider2 {
+    margin-left: 0;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 0 !important;
+}
+
+.sec6-content-feature {
+    max-width: 100% !important;
+}
+
+.align-cont {
+    align-content: flex-end;
 }
