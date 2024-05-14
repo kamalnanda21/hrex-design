@@ -10,7 +10,7 @@
     top: 40%;
     left: 15%;
     border-radius: 50%;
-    filter: blur(120px);
+    filter: blur(150px);
     transform: rotateZ(30deg);
 }
 
@@ -22,7 +22,7 @@
     top: 40%;
     right: 10%;
     border-radius: 50%;
-    filter: blur(120px);
+    filter: blur(150px);
     transform: rotateZ(-45deg);
 }
 
@@ -323,6 +323,7 @@
     max-width: 495px !important;
     text-align: left !important;
     padding-left: 40px !important;
+    max-height: 437px;
 }
 
 .features-section-five {
