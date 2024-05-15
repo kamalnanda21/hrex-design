@@ -398,6 +398,7 @@
     position: relative;
     left: 93px;
     bottom: 90px;
+    cursor: pointer;
 }
 
 .left-arrow-setting {
@@ -406,6 +407,7 @@
     position: relative;
     bottom: 140px;
     left: 32px;
+    cursor: pointer;
 }
 
 .slick-slider2 {
