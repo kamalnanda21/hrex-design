@@ -22,7 +22,7 @@ $('.slick-slider').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 4000, // Autoplay speed in milliseconds
   arrows: true, // Show arrows
   prevArrow: '<img src="/images/right-arrow.png" class="slick-prev">', // Custom prev arrow
