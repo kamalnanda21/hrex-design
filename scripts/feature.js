@@ -1,13 +1,15 @@
 // slick slider - features.html
 
 $('.card-area').slick({
-    dots: true,
+    fade: true,
+    speed: 3000,
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000, // Autoplay speed in milliseconds
+    autoplaySpeed: 5000, // Autoplay speed in milliseconds
     arrows: true, // Show arrows
     prevArrow: '<img src="/images/feature-images/next-arrow.png" class="slick-prev">', // Custom prev arrow
     nextArrow: '<img src="/images/feature-images/next-arrow.png" class="slick-next">', // Custom next arrow
@@ -48,9 +50,9 @@ hamburger.addEventListener("click", function() {
 
 
 $('.slick-slider2').slick({
-  dots: true,
+  dots: false,
   infinite: true,
-  speed: 300,
+  speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,

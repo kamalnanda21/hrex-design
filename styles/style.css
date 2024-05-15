@@ -65,7 +65,7 @@ ul {
     transition: all 0.2s ease-in-out;
 }
 
-.arrow-btn:hover {
+.arrow-btn:hover, .uk:hover {
     opacity: 0.8;
 }
 
@@ -88,7 +88,7 @@ ul {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-top: 50px;
     padding-inline: 0 !important;
 }
@@ -119,9 +119,9 @@ ul {
     font-family: aptosBold;
 }
 
-.navlinks li:last-child {
+/* .navlinks li:last-child {
     margin-right: 129px;
-}
+} */
 
 .navlinks li:hover a {
     font-family: aptosBold;
@@ -131,7 +131,7 @@ ul {
     width: 154px;
     height: 43px;
     cursor: pointer;
-    margin-right: 240px;
+    /* margin-right: 240px; */
 }
 
 .right {
@@ -491,6 +491,7 @@ ul {
     line-height: 40px;
     padding-bottom: 32px;
     max-width: 360px;
+    margin-inline: auto;
 }
 
 .sec3-col p {
@@ -499,6 +500,7 @@ ul {
     color: var(--content-color);
     padding-bottom: 57px;
     max-width: 511px;
+    margin-inline: auto;
 }
 
 .inner-content {
@@ -508,6 +510,7 @@ ul {
     padding-right: 30px;
     margin-bottom: 22px;
     max-width: 505px;
+    margin-inline: auto;
 }
 
 .inner-content h4 {
@@ -664,6 +667,7 @@ hr {
 }
 
 .nowrap {
+    justify-content: center;
     flex-wrap: nowrap !important;
 }
 
@@ -691,7 +695,7 @@ hr {
 }
 
 .sec5-cards-mw {
-    max-width: 1190px !important;
+    max-width: 1100px !important;
     margin-inline: auto !important;
 }
 
@@ -732,12 +736,22 @@ hr {
     max-width: 50%;
 }
 
+.slick-slider .sec6-content {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
+.slick-slider .slick-active .sec6-content {
+    opacity: 1;
+}
+
 .slick-slide {
     padding-inline: 10px;
 }
 
 .slick-prev, .slick-next {
-    font-size: 20px;
+    width: 24px !important;
+    height: 24px !important;
     position: absolute;
     bottom: 20px !important;
     z-index: 10;
@@ -752,12 +766,8 @@ hr {
 }
 
 .slick-next {
-    bottom: 11px !important;
+    bottom: 9px !important;
     left: 75px !important;
-}
-
-.slick-dots {
-    display: none !important;
 }
 
 .sec6-content {
@@ -885,6 +895,10 @@ hr {
     letter-spacing: 1px;
 }
 
+.sec7-img {
+    width: 100%;
+}
+
 .setting {
     max-width: 1215px !important;
     margin-inline: auto !important;
@@ -946,6 +960,7 @@ hr {
 
 .sec8-cards {
     padding-bottom: 89px;
+    cursor: pointer;
 }
 
 .sec8-card {
@@ -978,7 +993,7 @@ hr {
 
 .arw {
     float: right;
-    margin-top: -50px;
+    margin-top: -40px;
     background: transparent;
 }
 
@@ -999,7 +1014,7 @@ hr {
 }
 
 .sec8-mw {
-    max-width: 1217px !important;
+    max-width: 1180px !important;
     margin-inline: auto !important;
 }
 
@@ -1018,9 +1033,8 @@ hr {
     padding: 110px 122px 110px 67px;
 }
 
-.sec9-cont {
-    align-items: center;
-    justify-content: space-between;
+.sec9-cont, .sec8-cont {
+    padding-inline: 0 !important;
 }
 
 .sec9-cont h2 {
