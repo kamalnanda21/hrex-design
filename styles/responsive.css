@@ -226,6 +226,15 @@
         position: relative;
     }
 
+    .cross {
+        padding-top: 26px;
+        padding-right: 48px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
     .cross .line1 {
         transform: rotate(-50deg) translate(-8px, 12px);
     }
@@ -1407,14 +1416,13 @@
     }
 
     .sec5-img2 {
-        left: 4%;
+        left: 6%;
         transform: unset;
-        z-index: -1;
     }
 
     .img4-sec5 {
         top: 14%;
-        left: 11%;
+        left: 10%;
     }
 
 
