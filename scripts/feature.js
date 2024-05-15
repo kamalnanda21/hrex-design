@@ -53,7 +53,7 @@ $('.slick-slider2').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   arrows: false,
   autoplaySpeed: 5000, // Autoplay speed in milliseconds
   responsive: [
