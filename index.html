@@ -4,446 +4,439 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HREX</title>
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-    <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
-
+    <link rel="shortcut icon" href="/assets/images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/responsive.css">
 </head>
 <body>
-    
-    <!-- ------navbar--------- -->
-
-    <div class="navbar container navbar-mw">
-        <div class="left">
-          <a href="/"><img src="/images/logo.svg" alt="Logo" class="logo-image"></a>
-        </div>
-        <div class="middle">
-          <ul class="navlinks">
-            <li><a href="/index.html" class="active">Home</a></li>
-            <li><a href="/features.html">Features</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Contacts</a></li>
-          </ul>
-        </div>
-        <div class="right">
-            <a href="#" target="_blank" class="arrow-btn blue">Book a Demo <span class="dot"><img src="/images/btn-arrow.svg" alt=""></span></a>
-            <a href="#" target="_blank"><span class="dot uk">UK</span></a>
-        </div>
-    </div>
-
-    <!-- ----mobile navbar-----  -->
-
-    <div class="mobile-navbar" id="mobile-navbar">
-        <div class="outer-container">
-            <div class="left-side"></div>
-            <div class="right-side"></div>
-            <div class="inner-container">
-                <div class="mobile-list">
-                    <ul class="mobile-navlinks">
-                        <li><a href="/index.html" class="active">Home</a></li>
-                        <li><a href="/features.html">Features</a></li>
-                        <li><a href="#">Partners</a></li>
-                        <li><a href="#">Contacts</a></li>
-                    </ul>
-                </div>
-                <div class="mobile-btn">
-                    <a href="#" target="_blank" class="arrow-btn blue">Book a Demo <span class="dot"><img src="/images/btn-arrow.svg" alt=""></span></a>
-                </div>
+    <header>
+        <!-- ------navbar--------- -->
+        <div class="navbar container">
+            <div class="logo">
+            <a href="/"><img src="/assets/images/logo.svg"></a>
+            </div>
+            <ul class="navlinks">
+                <li><a href="/index.html" class="active">Home</a></li>
+                <li><a href="/features.html">Features</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <div class="nav-btns">
+                <a href="#" target="_blank" class="primary-btn blue">Book a Demo <span class="btn-icon"><img src="/assets/images/btn-arrow.svg"></span></a>
+                <a href="#" target="_blank"><span class="btn-icon uk">UK</span></a>
             </div>
         </div>
-    </div>
 
-
-    <!-- ----- section one ---------- -->
-
-    <div class="section-one">
-        <div class="flex">
-            <a href="/"><img src="/images/logo.svg" alt="logo" class="mobile-logo"></a>
+        <!-- ----mobile navbar-----  -->
+        <div class="mobile-header flex">
+            <a href="/"><img src="/assets/images/logo.svg"></a>
             <div class="hamburger" id="hamburger">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
         </div>
-        <div class="container">
-            <div class="content">
-                <h1>An HR Solution With A Human Side</h1>
-                <p>Behind every HR Process is a human story. Built on top of
-                    Microsoft Power Apps, our human resources solution elevates employee experiences from hire to retire.
-                </p>
-                <div class="sec1-btns">
-                    <a href="#" target="_blank" class="arrow-btn margin yellow">Watch a video <span class="dot yellow"><img src="/images/play-btn.svg" alt="btn"></span></a>
-                    <a href="#" target="_blank" class="arrow-btn grey wid-sec1">Book a Demo <span class="dot grey"><img src="/images/btn-arrow.svg" alt="btn"></span></a>
+        <div class="mobile-navbar" id="mobile-navbar">
+            <div class="outer-container">
+                <div class="nav-gradient1"></div>
+                <div class="nav-gradient2"></div>
+                <div class="inner-container">
+                    <ul class="mobile-navlinks">
+                        <li><a href="/index.html" class="active">Home</a></li>
+                        <li><a href="/features.html">Features</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                    <div class="mobile-btn">
+                        <a href="#" target="_blank" class="primary-btn blue">Book a Demo <span class="btn-icon"><img src="/assets/images/btn-arrow.svg"></span></a>
+                    </div>
                 </div>
             </div>
-            <div class="img-container">
-                <div class="row hero-mw">
-                    <div class="col-sm-3 first-col flex-change">
+        </div>
+    </header>
+
+    <main>
+        <!-- -----hero-section---------- -->
+        <div class="hero-section">
+            <div class="container">
+                <div class="content">
+                    <h1>An HR Solution With A Human Side</h1>
+                    <p>Behind every HR Process is a human story. Built on top of
+                        Microsoft Power Apps, our human resources solution elevates employee experiences from hire to retire.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#" target="_blank" class="primary-btn btns-margin yellow">Watch a video <span class="btn-icon yellow"><img src="/assets/images/play-btn.svg"></span></a>
+                        <a href="#" target="_blank" class="primary-btn grey btn-pad">Book a Demo <span class="btn-icon grey"><img src="/assets/images/btn-arrow.svg"></span></a>
+                    </div>
+                </div>
+                <div class="hero-gallery">
+                    <div class="row hero-max-wid">
+                        <div class="col-sm-3 top wid-change">
+                            <div class="cont">
+                                <img src="/assets/images/sec1-img1.1.png" alt="image1" class="top-image">
+                                <div class="overlay">
+                                    <img class="small-image" src="/assets/images/sec1-img1-cont.svg" alt="small image">
+                                    <p class="text">Smart & User Friendly</p>
+                                </div>
+                            </div>
+                            <img src="/assets/images/sec1-img1.2.png" alt="image1" class="bottom-image">
+                        </div>
+                        <div class="col-sm-3 wid-change">
+                            <img src="/assets/images/sec1-img2.png" alt="image2" class="second-image">
+                        </div>
+                        <div class="col-sm-3 wid-change">
+                            <div class="content-black">
+                                <img src="/assets/images/sec1-img3.1.png" alt="image3" class="black-image">
+                                <div class="overlay">
+                                    <img class="overlay-image" src="/assets/images/sec1-img3.2.png" alt="image3">
+                                    <p class="text">Secure</p>
+                                </div>
+                            </div>
+                            <img src="/assets/images/sec1-img4.png" alt="image4">
+                        </div>
+                        <div class="col-sm-3 cont wid-change">
+                            <img class="green-bg" src="/assets/images/sec1-img5.1.png" alt="image5">
+                            <img class="girl-image" src="/assets/images/sec1-img5.2.png" alt="image5">
+                        </div>
+                    </div>
+                </div>
+                <!-- --mobile image container--- -->
+                <div class="img-mobile-container">
+                    <div class="row wrap">
+                        <div class="col-sm-6 pad-right">
+                            <img src="/assets/images/man-image.png" alt="image2" class="man-image">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="content-black">
+                                <img src="/assets/images/black-small.png" alt="image3" class="blackmb-image">
+                                <div class="overlay mb">
+                                    <img class="overlaymb-image" src="/assets/images/sec1-img3.2.png" alt="image3">
+                                    <p class="text">Secure</p>
+                                </div>
+                            </div>
+                            <img class="white-shirt" src="/assets/images/white-shirt.png" alt="image4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ------section two----- -->
+
+        <div class="section-two sec2-mw">
+            <div class="container">
+                <div class="content-sec2">
+                    <a href="#" target="_blank" class="secondary-btn">Why HREX?</a>
+                    <h2>More Than an HR Management Solution</h2>
+                    <p>Seamlessly manage HR processes, payroll and benefits in one place. With expert guidance from our trusted team along the way</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards-container">
+            <div class="row cards">
+                <div class="col-sm-3 card yellow">
+                    <img src="/assets/images/headphones.svg" alt="headphones" class="card-image">
+                    <h4>Helpful Support</h4>
+                    <p>We work closely with you to implement HREX and provide training to ensure you make the most of the platform from day one. For those who want it, we offer a fully managed service with ongoing support.</p>
+                </div>
+                <div class="col-sm-3 card green">
+                    <img src="/assets/images/msoft.svg" alt="microsoft" class="card-image">
+                    <h4>Microsoft Partner Status</h4>
+                    <p>HREX is built on top of Microsoft technology. As a Microsoft Partner, in all 6 Microsoft specialisms. So when you have a challenge, you're in the right place to get a solution.</p>
+                </div>
+                <div class="col-sm-3 card black">
+                    <img src="/assets/images/message.svg" alt="message" class="card-image">
+                    <h4 class="white">24/7 Chatbot</h4>
+                    <p class="white">We practice what we preach and provide instant support with our advanced chatbot feature. Always available, it provides quick answers and solutions to keep your HR processes running smoothly day and night.</p>
+                </div>
+                <div class="col-sm-3 card blue-card">
+                    <img src="/assets/images/ai-bot.svg" alt="bot" class="card-image">
+                    <h4 class="white">AI & Copilot Ready</h4>
+                    <p class="white">AI & Copilot features help your company to create better employee experiences, boost productivity, and aid HR decision-making.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------- section three ------ -->
+
+        <div class="section-three">
+            <div class="container">
+                <div class="row justify sec3-mw">
+                    <div class="col-sm-2 max1">
+                        <img src="/assets/images/sec3-img1.png" alt="image1" class="up-image">
+                        <img src="/assets/images/sec3-img1.1.png" alt="image-overlap" class="down-image">
+                    </div>
+                    <div class="col-sm-3 max2">
+                        <img src="/assets/images/sec3-img2.png" alt="image2" class="sec3-img">
+                    </div>
+                    <div class="col-sm-6 max3">
+                        <div class="sec3-col">
+                            <a href="#" target="_blank" class="secondary-btn wid">Next Generation HCM software</a>
+                            <h3>AI-Powered Support For Your HR Team</h3>
+                            <p>Elevate your employee experience and give your human resources team more time to focus on valuable strategic work.</p>
+                        </div>
+                        <div class="inner-content">
+                            <h4>Employee Self Service</h4>
+                            <p>Copilot's AI chatbot answers common employee questions like remaining holiday allowance so HR doesn't have to. Your HR team can also easily access insights on personnel information, document expiration dates, performance appraisals, and more.</p>
+                        </div>
+                        <div class="learn-more">
+                            <a href="#" target="_blank" class="primary-btn blue pad btn-pad">Learn more <span class="btn-icon"><img src="/assets/images/btn-arrow.svg"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----section-three-mobile-version----- -->
+        <div class="sec3-mobile">
+            <div class="sec3-col">
+                <a href="#" target="_blank" class="secondary-btn wid">Next Generation HCM software</a>
+                <h3>AI-Powered Support For Your HR Team</h3>
+                <p>Elevate your employee experience and give your human resources team more time to focus on valuable strategic work.</p>
+            </div>
+            <div class="row sec3-mob-mw">
+                <div class="col-sm-6 max1">
+                    <img src="/assets/images/sec3-img1.png" alt="image1" class="up-image">
+                    <img src="/assets/images/sec3-img1.1.png" alt="image-overlap" class="down-image">
+                </div>
+                <div class="col-sm-6 max2">
+                    <img src="/assets/images/sec3-img2.png" alt="image2" class="sec3-image">
+                </div>
+            </div>
+            <div class="inner-content">
+                <h4>Employee Self Service</h4>
+                <p>Copilot's AI chatbot answers common employee questions like remaining holiday allowance so HR doesn't have to. Your HR team can also easily access insights on personnel information, document expiration dates, performance appraisals, and more.</p>
+            </div>
+            <div class="learn-more">
+                <a href="#" target="_blank" class="primary-btn blue pad wid-sec3">Learn more <span class="btn-icon"><img src="/assets/images/btn-arrow.svg"></span></a>
+            </div>
+        </div>
+
+        <!-- ---- section four -----  -->
+
+        <div class="section-four sec4-mw">
+            <div class="container sec4-cont">
+                <div class="row">
+                    <div class="col-sm-6 sec4-col">
+                        <a href="#" target="_blank" class="secondary-btn sec4-wid">Microsoft Integration</a>
+                        <h2>Already Using Microsoft? HREX is For You</h2>
+                        <p>Rooted in Microsoft cloud technologies, HREX easily integrates with your existing suite of Microsoft tools.</p>
                         <div class="cont">
-                            <img src="/images/sec1-img1.1.png" alt="image1" class="top-image">
-                            <div class="overlay">
-                                <img class="small-image" src="/images/sec1-img1-cont.svg" alt="small image">
-                                <p class="text">Smart & User Friendly</p>
+                            <img src="/assets/images/sec4-img1.png" alt="image1" class="sec4-image1">
+                            <img src="/assets/images/sec4-img2.svg" alt="image2" class="sec4-image2">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 web-center">
+                        <div class="hr-cards">
+                            <div class="hr-card">
+                                <h4>One Login</h4>
+                                <p>HREX is easy for people to use. Simply login to your Microsoft account as usual to access features as and when needed.</p>
+                            </div>
+                            <hr>
+                            <div class="hr-card">
+                                <h4>Easy Adoption</h4>
+                                <p>Because HREX is built on Microsoft power apps, it’s easy to integrate with Teams, Dynamics and ERP systems.</p>
+                            </div>
+                            <hr>
+                            <div class="hr-card">
+                                <h4>Leading Security</h4>
+                                <p>Your employee data stays in one secure location, protected by Microsoft's leading data security measures.</p>
+                            </div>
+                            <div class="book-demo">
+                                <a href="#" target="_blank" class="primary-btn yellow btn-pad">Book a Demo <span class="btn-icon yellow"><img src="/assets/images/btn-arrow.svg"></span></a>
                             </div>
                         </div>
-                        <img src="/images/sec1-img1.2.png" alt="image1" class="bottom-image">
                     </div>
-                    <div class="col-sm-3 flex-change">
-                        <img src="/images/sec1-img2.png" alt="image2" class="second-image">
-                    </div>
-                    <div class="col-sm-3 flex-change">
-                        <div class="content-black">
-                            <img src="/images/sec1-img3.1.png" alt="image3" class="black-image">
-                            <div class="overlay">
-                                <img class="overlay-image" src="/images/sec1-img3.2.png" alt="image3">
-                                <p class="text">Secure</p>
-                            </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----section five---- -->
+
+        <div class="section-five">
+            <div class="container">
+                <div class="outer-content">
+                    <a href="#" target="_blank" class="secondary-btn">HREX Features</a>
+                    <h2>HR Simplified: Your Complete Solution</h2>
+                </div>
+                <div class="sec5-cards sec5-cards-mw">
+                    <div class="row marg nowrap">
+                        <div class="col-sm-6 sec5-card white-bg m-right">
+                            <img src="/assets/images/sec5-img1.svg" alt="image1" class="sec5-image">
+                            <h4 class="black-color">Talent Acquisition</h4>
+                            <p class="black-color">Easily handle the entire recruitment process with features like one-click job posting and AI-assisted job description creation. When they join, you can use HREX to onboard your new team members too.</p>
                         </div>
-                        <img src="/images/sec1-img4.png" alt="image4">
-                    </div>
-                    <div class="col-sm-3 cont flex-change">
-                        <img class="green-bg" src="/images/sec1-img5.1.png" alt="image5">
-                        <img class="girl-image" src="/images/sec1-img5.2.png" alt="image5">
-                    </div>
-                </div>
-            </div>
-            <!-- --mobile image container--- -->
-            <div class="img-mobile-container">
-                <div class="row wrap">
-                    <div class="col-sm-6 pr">
-                        <img src="/images/man-image.png" alt="image2" class="man-image">
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="content-black">
-                            <img src="/images/black-small.png" alt="image3" class="blackmb-image">
-                            <div class="overlay mb">
-                                <img class="overlaymb-image" src="/images/sec1-img3.2.png" alt="image3">
-                                <p class="text">Secure</p>
-                            </div>
+                        <div class="col-sm-6 sec5-card black m-right">
+                            <img src="/assets/images/sec5-img2.svg" alt="image1" class="sec5-image">
+                            <h4>Leave Management</h4>
+                            <p>Streamline employee leave request and approval processes with smooth and easy workflows for both staff and management.</p>
                         </div>
-                        <img class="white-shirt" src="/images/white-shirt.png" alt="image4">
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- ------section two----- -->
-
-    <div class="section-two sec2-mw">
-        <div class="container">
-            <div class="content-sec2">
-                <a href="#" target="_blank" class="secondary-btn">Why HREX?</a>
-                <h2>More Than an HR Management Solution</h2>
-                <p>Seamlessly manage HR processes, payroll and benefits in one place. With expert guidance from our trusted team along the way</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="cards-container">
-        <div class="row cards">
-            <div class="col-sm-3 card yellow">
-                <img src="/images/headphones.svg" alt="headphones" class="card-image">
-                <h4>Helpful Support</h4>
-                <p>We work closely with you to implement HREX and provide training to ensure you make the most of the platform from day one. For those who want it, we offer a fully managed service with ongoing support.</p>
-            </div>
-            <div class="col-sm-3 card green">
-                <img src="/images/msoft.svg" alt="microsoft" class="card-image">
-                <h4>Microsoft Partner Status</h4>
-                <p>HREX is built on top of Microsoft technology. As a Microsoft Partner, in all 6 Microsoft specialisms. So when you have a challenge, you're in the right place to get a solution.</p>
-            </div>
-            <div class="col-sm-3 card black">
-                <img src="/images/message.svg" alt="message" class="card-image">
-                <h4 class="white">24/7 Chatbot</h4>
-                <p class="white">We practice what we preach and provide instant support with our advanced chatbot feature. Always available, it provides quick answers and solutions to keep your HR processes running smoothly day and night.</p>
-            </div>
-            <div class="col-sm-3 card blue-card">
-                <img src="/images/ai-bot.svg" alt="bot" class="card-image">
-                <h4 class="white">AI & Copilot Ready</h4>
-                <p class="white">AI & Copilot features help your company to create better employee experiences, boost productivity, and aid HR decision-making.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- --------- section three ------ -->
-
-    <div class="section-three">
-        <div class="container">
-            <div class="row justify sec3-mw">
-                <div class="col-sm-2 max1">
-                    <img src="/images/sec3-img1.png" alt="image1" class="up-image">
-                    <img src="/images/sec3-img1.1.png" alt="image-overlap" class="down-image">
-                </div>
-                <div class="col-sm-3 max2">
-                    <img src="/images/sec3-img2.png" alt="image2" class="sec3-img">
-                </div>
-                <div class="col-sm-6 max3">
-                    <div class="sec3-col">
-                        <a href="#" target="_blank" class="secondary-btn wid">Next Generation HCM software</a>
-                        <h3>AI-Powered Support For Your HR Team</h3>
-                        <p>Elevate your employee experience and give your human resources team more time to focus on valuable strategic work.</p>
-                    </div>
-                    <div class="inner-content">
-                        <h4>Employee Self Service</h4>
-                        <p>Copilot's AI chatbot answers common employee questions like remaining holiday allowance so HR doesn't have to. Your HR team can also easily access insights on personnel information, document expiration dates, performance appraisals, and more.</p>
-                    </div>
-                    <div class="learn-more">
-                        <a href="#" target="_blank" class="arrow-btn blue pad wid-sec3">Learn more <span class="dot"><img src="/images/btn-arrow.svg" alt=""></span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- -----section-three-mobile-version----- -->
-    <div class="sec3-mobile">
-        <div class="sec3-col">
-            <a href="#" target="_blank" class="secondary-btn wid">Next Generation HCM software</a>
-            <h3>AI-Powered Support For Your HR Team</h3>
-            <p>Elevate your employee experience and give your human resources team more time to focus on valuable strategic work.</p>
-        </div>
-        <div class="row sec3-mob-mw">
-            <div class="col-sm-6 max1">
-                <img src="/images/sec3-img1.png" alt="image1" class="up-image">
-                <img src="/images/sec3-img1.1.png" alt="image-overlap" class="down-image">
-            </div>
-            <div class="col-sm-6 max2">
-                <img src="/images/sec3-img2.png" alt="image2" class="sec3-image">
-            </div>
-        </div>
-        <div class="inner-content">
-            <h4>Employee Self Service</h4>
-            <p>Copilot's AI chatbot answers common employee questions like remaining holiday allowance so HR doesn't have to. Your HR team can also easily access insights on personnel information, document expiration dates, performance appraisals, and more.</p>
-        </div>
-        <div class="learn-more">
-            <a href="#" target="_blank" class="arrow-btn blue pad wid-sec3">Learn more <span class="dot"><img src="/images/btn-arrow.svg" alt=""></span></a>
-        </div>
-    </div>
-
-    <!-- ---- section four -----  -->
-
-    <div class="section-four sec4-mw">
-        <div class="container sec4-cont">
-            <div class="row">
-                <div class="col-sm-6 sec4-col">
-                    <a href="#" target="_blank" class="secondary-btn sec4-wid">Microsoft Integration</a>
-                    <h2>Already Using Microsoft? HREX is For You</h2>
-                    <p>Rooted in Microsoft cloud technologies, HREX easily integrates with your existing suite of Microsoft tools.</p>
-                    <div class="cont">
-                        <img src="/images/sec4-img1.png" alt="image1" class="sec4-image1">
-                        <img src="/images/sec4-img2.svg" alt="image2" class="sec4-image2">
-                    </div>
-                </div>
-                <div class="col-sm-6 web-center">
-                    <div class="hr-cards">
-                        <div class="hr-card">
-                            <h4>One Login</h4>
-                            <p>HREX is easy for people to use. Simply login to your Microsoft account as usual to access features as and when needed.</p>
+                    <div class="row nowrap">
+                        <div class="col-sm-6 sec5-card blue-card m-right">
+                            <img src="/assets/images/sec5-img3.svg" alt="image1" class="sec5-image">
+                            <h4>Learning & Development</h4>
+                            <p>Give your team regular growth opportunities with structured learning and development modules. Manage and track your employee training programs so you can reward progress and give extra support where needed.</p>
                         </div>
-                        <hr>
-                        <div class="hr-card">
-                            <h4>Easy Adoption</h4>
-                            <p>Because HREX is built on Microsoft power apps, it’s easy to integrate with Teams, Dynamics and ERP systems.</p>
-                        </div>
-                        <hr>
-                        <div class="hr-card">
-                            <h4>Leading Security</h4>
-                            <p>Your employee data stays in one secure location, protected by Microsoft's leading data security measures.</p>
-                        </div>
-                        <div class="book-demo">
-                            <a href="#" target="_blank" class="arrow-btn yellow wid-sec4">Book a Demo <span class="dot yellow"><img src="/images/btn-arrow.svg" alt=""></span></a>
+                        <div class="col-sm-6 sec5-card green m-right">
+                            <img src="/assets/images/sec5-img4.svg" alt="image1" class="sec5-image">
+                            <h4>Payroll</h4>
+                            <p>Simplify payroll processing with our efficient, accurate system, ensuring timely and correct payments to employees every cycle.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ----section five---- -->
-
-    <div class="section-five">
-        <div class="container">
-            <div class="outer-content">
-                <a href="#" target="_blank" class="secondary-btn">HREX Features</a>
-                <h2>HR Simplified: Your Complete Solution</h2>
-            </div>
-            <div class="sec5-cards sec5-cards-mw">
-                <div class="row marg nowrap">
-                    <div class="col-sm-6 sec5-card white-bg m-right">
-                        <img src="/images/sec5-img1.svg" alt="image1" class="sec5-image">
-                        <h4 class="black-color">Talent Acquisition</h4>
-                        <p class="black-color">Easily handle the entire recruitment process with features like one-click job posting and AI-assisted job description creation. When they join, you can use HREX to onboard your new team members too.</p>
-                    </div>
-                    <div class="col-sm-6 sec5-card black m-right">
-                        <img src="/images/sec5-img2.svg" alt="image1" class="sec5-image">
-                        <h4>Leave Management</h4>
-                        <p>Streamline employee leave request and approval processes with smooth and easy workflows for both staff and management.</p>
-                    </div>
-                </div>
-                <div class="row nowrap">
-                    <div class="col-sm-6 sec5-card blue-card m-right">
-                        <img src="/images/sec5-img3.svg" alt="image1" class="sec5-image">
-                        <h4>Learning & Development</h4>
-                        <p>Give your team regular growth opportunities with structured learning and development modules. Manage and track your employee training programs so you can reward progress and give extra support where needed.</p>
-                    </div>
-                    <div class="col-sm-6 sec5-card green m-right">
-                        <img src="/images/sec5-img4.svg" alt="image1" class="sec5-image">
-                        <h4>Payroll</h4>
-                        <p>Simplify payroll processing with our efficient, accurate system, ensuring timely and correct payments to employees every cycle.</p>
-                    </div>
+                <div class="more-btn">
+                    <a href="#" target="_blank" class="secondary-btn more">Explore More Features</a>
                 </div>
             </div>
-            <div class="more-btn">
-                <a href="#" target="_blank" class="secondary-btn more">Explore More Features</a>
-            </div>
         </div>
-    </div>
 
 
-    <!-- section six -->    
+        <!-- section six -->    
 
-    <div class="section-six sec6-mw">
-        <div class="container cont-pad">
-                    <div class="row fl-dir">
-                        <div class="slick-slider">
-                            <div class="slide">
-                                <div class="col-sm-6 sec6-content">
-                                    <a href="#" target="_blank" class="secondary-btn testimonials">Testimonials</a>
-                                    <p>“The simplicity and effectiveness of this HR platform have streamlined our human resources processes, saving us time and resources. HREX is more than just a HR solution; they are a strategic partner committed to our success.”</p>
-                                    <h5>Pauline Ibrahim, CFO, Blackspoon Group</h5>
-                                    <div class="star-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star unchecked"></span>
+        <div class="section-six sec6-mw">
+            <div class="container cont-pad">
+                        <div class="row fl-dir">
+                            <div class="slick-slider">
+                                <div class="slide">
+                                    <div class="col-sm-6 sec6-content">
+                                        <a href="#" target="_blank" class="secondary-btn testimonials">Testimonials</a>
+                                        <p>“The simplicity and effectiveness of this HR platform have streamlined our human resources processes, saving us time and resources. HREX is more than just a HR solution; they are a strategic partner committed to our success.”</p>
+                                        <h5>Pauline Ibrahim, CFO, Blackspoon Group</h5>
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star unchecked"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="col-sm-6 sec6-content">
+                                        <a href="#" target="_blank" class="secondary-btn testimonials">Testimonials</a>
+                                        <p>“The simplicity and effectiveness of this HR platform have streamlined our human resources processes, saving us time and resources. HREX is more than just a HR solution; they are a strategic partner committed to our success.”</p>
+                                        <h5>Pauline Ibrahim, CFO, Blackspoon Group</h5>
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star unchecked"></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide">
-                                <div class="col-sm-6 sec6-content">
-                                    <a href="#" target="_blank" class="secondary-btn testimonials">Testimonials</a>
-                                    <p>“The simplicity and effectiveness of this HR platform have streamlined our human resources processes, saving us time and resources. HREX is more than just a HR solution; they are a strategic partner committed to our success.”</p>
-                                    <h5>Pauline Ibrahim, CFO, Blackspoon Group</h5>
-                                    <div class="star-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star unchecked"></span>
-                                    </div>
+                            <div class="col-sm-6 center">
+                                <div class="image">
+                                    <img src="/assets/images/sec6-img.png" alt="image6" class="sec6-image">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 center">
-                            <div class="image">
-                                <img src="/images/sec6-img.png" alt="image6" class="sec6-image">
-                            </div>
-                        </div>
-                    </div>
-        </div>
-    </div>
-
-
-    <!-- section seven  -->
-
-    <div class="section-seven sec7-mw">
-        <div class="container">
-            <div class="sec7-cont">
-                <a href="#" target="_blank" class="secondary-btn msoft">Microsoft Integration</a>
-                <h2>A Human Touch At Every Step Of The Employee Journey</h2>
             </div>
-            <div class="sec7-inner-cont">
-                <div class="row setting">
-                    <div class="col-sm-7 d-flex">
-                        <p class="vertical-text text0">Begin The Adventure</p>
-                        <div class="main-cont">
-                            <img src="/images/sec7-img.png" alt="" class="sec7-img">
-                            <div class="num1-cont">
-                                <h2>1. </h2>
-                                <p>Meet HR manager, Emma. She uses HREX to post a job opening with just a few clicks, attracting top candidates that match her needs. It’s the start of a new chapter.</p>
-                            </div>
-                            <div class="bookdemo">
-                                <a href="#" target="_blank" class="arrow-btn yellow wid-sec7">Book a Demo <span class="dot yellow"><img src="/images/btn-arrow.svg" alt=""></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-5 sec7-img-cont">
-                        <div class="sec7-image1">
-                            <img src="/images/sec7-blue.png" alt="blue" class="blue-img">
-                            <p class="vertical-text text1">Welcome New Faces</p>
-                        </div>
-                        <div class="sec7-image2">
-                            <img src="/images/sec7-darkblue.png" alt="darkblue" class="darkblue-img">
-                            <p class="vertical-text text2">Grow Together</p>
-                        </div>
-                        <div class="sec7-image3">
-                            <img src="/images/sec7-yellow.png" alt="yellow" class="yellow-img">
-                            <p class="vertical-text text3">A Rewarding Conclusion</p>
-                        </div>
-                    </div>
+        </div>
+
+
+        <!-- section seven  -->
+
+        <div class="section-seven sec7-mw">
+            <div class="container">
+                <div class="sec7-cont">
+                    <a href="#" target="_blank" class="secondary-btn msoft">Microsoft Integration</a>
+                    <h2>A Human Touch At Every Step Of The Employee Journey</h2>
                 </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- ----- section eight -------  -->
-
-    <div class="section-eight sec8-mw">
-        <div class="container sec8-cont">
-            <div class="sec8-container">
-                <a href="#" target="_blank" class="secondary-btn">The Blog</a>
-                <h2>Discover The Latest HR Trends</h2>
-                <div class="sec8-cards" onclick="location.href='#';">
-                    <div class="row nowrap sec8-mw">
-                        <div class="col-sm-4 sec8-card card1">
-                            <div class="content-overlay">
-                                <p class="sec8-para">The Blog</p>
-                                <h4 class="sec8-head">Remote and Hybrid Work Models</h4>
-                                <span class="dot arw"><img src="/images/btn-arrow.svg" alt=""></span>
+                <div class="sec7-inner-cont">
+                    <div class="row setting">
+                        <div class="col-sm-7 d-flex">
+                            <p class="vertical-text text0">Begin The Adventure</p>
+                            <div class="main-cont">
+                                <img src="/assets/images/sec7-img.png" class="sec7-img">
+                                <div class="num1-cont">
+                                    <h2>1. </h2>
+                                    <p>Meet HR manager, Emma. She uses HREX to post a job opening with just a few clicks, attracting top candidates that match her needs. It’s the start of a new chapter.</p>
+                                </div>
+                                <div class="bookdemo">
+                                    <a href="#" target="_blank" class="primary-btn yellow btn-pad">Book a Demo <span class="btn-icon yellow"><img src="/assets/images/btn-arrow.svg"></span></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-4 sec8-card card2">
-                            <div class="content-overlay">
-                                <p class="sec8-para">The Blog</p>
-                                <h4 class="sec8-head">Employee Well-being and Mental Health</h4>
-                                <span class="dot arw"><img src="/images/btn-arrow.svg" alt=""></span>
+                        <div class="col-sm-5 sec7-img-cont">
+                            <div class="sec7-image1">
+                                <img src="/assets/images/sec7-blue.png" alt="blue" class="blue-img">
+                                <p class="vertical-text text1">Welcome New Faces</p>
                             </div>
-                        </div>
-                        <div class="col-sm-4 sec8-card card3">
-                            <div class="content-overlay">
-                                <p class="sec8-para">The Blog</p>
-                                <h4 class="sec8-head">Diversity, Equity, and Inclusion (DEI)</h4>
-                                <span class="dot arw"><img src="/images/btn-arrow.svg" alt=""></span>
+                            <div class="sec7-image2">
+                                <img src="/assets/images/sec7-darkblue.png" alt="darkblue" class="darkblue-img">
+                                <p class="vertical-text text2">Grow Together</p>
+                            </div>
+                            <div class="sec7-image3">
+                                <img src="/assets/images/sec7-yellow.png" alt="yellow" class="yellow-img">
+                                <p class="vertical-text text3">A Rewarding Conclusion</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- ------ section ninth ---- -->
 
-    <div class="section-ninth sec9-mw">
-        <div class="container sec9-cont">
-            <div class="ninth-section-img">
-                <div class="row sec9-cont-row">
-                    <h2>Transform your HR, transform your business</h2>
-                    <div class="book-call">
-                        <a href="#" target="_blank" class="arrow-btn yellow">Book A Discovery Call <span class="dot yellow"><img src="/images/btn-arrow.svg" alt=""></span></a>
+        <!-- ----- section eight -------  -->
+
+        <div class="section-eight sec8-mw">
+            <div class="container sec8-cont">
+                <div class="sec8-container">
+                    <a href="#" target="_blank" class="secondary-btn">The Blog</a>
+                    <h2>Discover The Latest HR Trends</h2>
+                    <div class="sec8-cards" onclick="location.href='#';">
+                        <div class="row nowrap sec8-mw">
+                            <div class="col-sm-4 sec8-card card1">
+                                <div class="content-overlay">
+                                    <p class="sec8-para">The Blog</p>
+                                    <h4 class="sec8-head">Remote and Hybrid Work Models</h4>
+                                    <span class="btn-icon arw"><img src="/assets/images/btn-arrow.svg"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 sec8-card card2">
+                                <div class="content-overlay">
+                                    <p class="sec8-para">The Blog</p>
+                                    <h4 class="sec8-head">Employee Well-being and Mental Health</h4>
+                                    <span class="btn-icon arw"><img src="/assets/images/btn-arrow.svg"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 sec8-card card3">
+                                <div class="content-overlay">
+                                    <p class="sec8-para">The Blog</p>
+                                    <h4 class="sec8-head">Diversity, Equity, and Inclusion (DEI)</h4>
+                                    <span class="btn-icon arw"><img src="/assets/images/btn-arrow.svg"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- ------ section ninth ---- -->
+
+        <div class="section-ninth sec9-mw">
+            <div class="container sec9-cont">
+                <div class="ninth-section-img">
+                    <div class="row sec9-cont-row">
+                        <h2>Transform your HR, transform your business</h2>
+                        <div class="book-call">
+                            <a href="#" target="_blank" class="primary-btn yellow">Book A Discovery Call <span class="btn-icon yellow"><img src="/assets/images/btn-arrow.svg"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <!-- ---- footer section ----  -->
 
@@ -452,7 +445,7 @@
             <div class="footer-container">
                 <div class="footer-row footer-mw">
                     <div class="footer-col">
-                        <img src="/images/footer-logo.png" alt="logo" class="footer-logo">
+                        <img src="/assets/images/footer-logo.png" alt="logo" class="footer-logo">
                         <div class="footer-content">
                             <p class="address"><a href="http://maps.google.com/?q=One Kingdom Street , Paddington Central Greater London, London - W2 6BD" target="_blank">One Kingdom Street , Paddington Central Greater London, London - W2 6BD</a></p>
                             <p class="spacer"><a href="tel:+44 203 997 4980" target="_blank">+44 203 997 4980</a></p>
@@ -478,16 +471,9 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="/scripts/main.js"></script>
+    <script src="/assets/scripts/main.js"></script>
 
 </body>
 </html>
