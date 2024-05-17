@@ -27,8 +27,8 @@ $('.slick-slider').slick({
   autoplay: true,
   autoplaySpeed: 5000, // Autoplay speed in milliseconds
   arrows: true, // Show arrows
-  prevArrow: '<img src="/images/right-arrow.png" class="slick-prev">', // Custom prev arrow
-  nextArrow: '<img src="/images/right-arrow.png" class="slick-next">', // Custom next arrow
+  prevArrow: '<img src="/assets/images/right-arrow.png" class="slick-prev">', // Custom prev arrow
+  nextArrow: '<img src="/assets/images/right-arrow.png" class="slick-next">', // Custom next arrow
   responsive: [
       {
           breakpoint: 768,
